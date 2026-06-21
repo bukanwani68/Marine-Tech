@@ -224,6 +224,7 @@
 
     <header class="hero">
         <span class="hero-badge"><i class="fa-solid fa-bolt"></i> Realtime Operator Info</span>
+        <h3>MARINE COOPERATIVE MANAGEMENT SYSTEM</h3>
         <h1>Nelayan Berdaya, Tangkapan <span>Maksimal!</span></h1>
         <p>Akses transparansi satu pintu fasilitas Koperasi F4 Marivo. Cek jatah sisa kuota bensin subsidi dari 10 armada kapal utama, pinjam sonar, dan sewa kargo es pendingin.</p>
     </header>
@@ -363,6 +364,10 @@
         <div class="modal-actions"><button class="btn" onclick="closeModal('storageModal')">Batal</button><button class="btn btn-orange" onclick="submitSewaStorage()">Simpan Masuk</button></div>
     </div></div>
 
+    <p style="text-align: center; color: #94a3b8; font-size: 0.9rem; padding: 20px 0;">&copy; 2026 Koperasi F4 Marivo. Developed by Marine Technology Nusantara. All Rights Reserved.</p>
+    <br>
+    <br>
+
     <script>
         // MASTER 10 DATA NELAYAN TERDAFTAR SECARA LENGKAP
         let nelayanData = [
@@ -390,9 +395,16 @@
         ];
 
         let inventarisData = [
-            { id: 101, nama: 'GPS Garmin Fishfinder 350+', kat: 'Navigasi Sonar', kon: 'Sangat Baik', status: 'disewa', user: 'Pak Joko' },
+            { id: 101, nama: 'GPS Garmin Fishfinder 350+', kat: 'Navigasi & Sonar', kon: 'Sangat Baik', status: 'disewa', user: 'Pak Joko' },
             { id: 102, nama: 'Jaring Insang (Gill Net 2.5 Inch)', kat: 'Alat Tangkap', kon: 'Prima', status: 'tersedia', user: null },
-            { id: 103, nama: 'Radio Pemancar VHF Marine', kat: 'Komunikasi', kon: 'Baik', status: 'tersedia', user: null }
+            { id: 103, nama: 'Radio Pemancar VHF Marine ICOM', kat: 'Komunikasi', kon: 'Baik', status: 'tersedia', user: null },
+            { id: 104, nama: 'Life Jacket & Ring Buoy Solas', kat: 'Keselamatan', kon: 'Sangat Baik', status: 'tersedia', user: null },
+            { id: 105, nama: 'Alat Lacak Satelit (VMS Transmitter)', kat: 'Navigasi & Sonar', kon: 'Baik', status: 'disewa', user: 'Haji Mansur' },
+            { id: 106, nama: 'Jaring Pukat Cincin (Purse Seine)', kat: 'Alat Tangkap', kon: 'Perlu Servis', status: 'tersedia', user: null },
+            { id: 107, nama: 'Lampu Celup Bawah Air (Cumi-cumi)', kat: 'Alat Bantu', kon: 'Prima', status: 'tersedia', user: null },
+            { id: 108, nama: 'Aki Kapal GS Astra Marine 12V', kat: 'Daya & Kelistrikan', kon: 'Sangat Baik', status: 'tersedia', user: null },
+            { id: 109, nama: 'Mesin Tempel Yamaha E40X 40 HP', kat: 'Mekanikal Kapal', kon: 'Baik', status: 'disewa', user: 'Pak Rusli' },
+            { id: 110, nama: 'Perangkat P3K & Suar Darurat (Flare)', kat: 'Keselamatan', kon: 'Sangat Baik', status: 'tersedia', user: null }
         ];
 
         let storageData = [
